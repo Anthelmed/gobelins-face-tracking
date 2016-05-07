@@ -1,0 +1,40 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    background: #4f7616; /* Old browsers */
+    background: -moz-linear-gradient(top, #4f7616 0%, #8ea656 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4f7616 0%,#8ea656 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4f7616 0%,#8ea656 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.eye {
+  overflow: hidden;
+}
+circle {
+  transform-origin: center center;
+  transition: all 0.3s ease;
+}
+#video, #canvas {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /*display: none;*/
+}
+#monster {
+    position: absolute;
+    height: 100vh;
+    width: auto;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#gobelins {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    width: auto;
+}
